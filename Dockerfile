@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM centos:latest
 
 MAINTAINER alex <alexwhen@gmail.com> 
 
