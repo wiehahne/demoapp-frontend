@@ -13,7 +13,7 @@ RUN yum install -y wget openssl sed &&\
     rpm -iv nginx-$nginxversion.el$elversion.ngx.x86_64.rpm
 
 COPY nginx.conf /etc/nginx/nginx.conf
-COPY 2048 /data/www/
+COPY www /data/www/
 VOLUME [ "/data/www" ]
 EXPOSE 80
 
